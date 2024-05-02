@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+   <link rel="shortcut icon" type="x-icon" href="icon.jpg" >
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <script src="https://kit.fontawesome.com/5eea867e3f.js" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="style.css">
+   <style>
+      #but{
+         margin-top: 20px;
+         max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+      }
+      
+   </style>
+   
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="index.html" class="logo">Shiksha <i class="fa-solid fa-laptop-code fa-flip" style="color: goldenrod;--fa-animation-duration: 3s; height: fit-content;"></i></a>
+
+      <form action="search.html" method="post" class="search-form" >
+         <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="nar.jpg" class="image" alt="">
+         <h3 class="name">Naruto Uzumaki</h3>
+         <p class="role">IT Student</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="nar.jpg" class="image" alt="">
+      <h3 class="name">Naruto Uzumaki</h3>
+      <p class="role">IT Student</p>
+      <a href="profile.html" class="btn">View profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+
+<section class="home-grid" style="text-align: center;">
+   <h1 class="heading">Our Vision <span style="color: rgb(81, 189, 189);">@Shiksha</span></h2>
+   <p class="hero">Shiksha envisions holistic education, nurturing critical thinking, creativity, and ethical values. It fosters inclusivity, celebrates diversity, and promotes lifelong learning. Empowering individuals to lead with empathy, adaptability, and social responsibility, Shiksha prepares them to thrive in a rapidly changing world.Empowering learners worldwide through quality education and innovative learning experiences.</p>
+</section>
+
+<section class="home-grid" style="text-align: center; justify-content: center; text-align: center;">
+   <h1 class="heading">What's New   <i class="fa-brands fa-gitlab"></i></h2>
+   <p class="hero">Check out the latest updates and additions to our platform!</p>
+   <div id="but"><a href="puzzle.html" class="inline-btn btn1" style="width: fit-content;  background-color: #BD9F67;">Try Our Puzzles</a>
+      <div id="but"><a href="ce.html" class="inline-btn btn1" style="width: fit-content;  background-color: #BD9F67;">Our Virtual Labs</a>
+         <a href="Evolve.pdf" download class="inline-btn btn1">Our Brochure<i class="fa-solid fa-download"></i></a>
+   </div></section>
+
+
+<section class="home-grid">
+
+   <h1 class="heading">Quick OverView</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3 class="title">Likes and Comments</h3>
+         <p class="likes">Likes Count : <span>25</span></p>
+         <a href="#" class="inline-btn">View likes</a>
+         <p class="likes">Total Comments : <span>12</span></p>
+         <a href="#" class="inline-btn">View comments</a>
+         <p class="likes">Saved Playlists : <span>4</span></p>
+         <a href="#" class="inline-btn">View playlists</a>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Top Categories</h3>
+         <div class="flex">
+            <a href="#"><i class="fas fa-code"></i><span>Development</span></a>
+            <a href="#"><i class="fas fa-chart-simple"></i><span>Business</span></a>
+            <a href="#"><i class="fas fa-music"></i><span>Music</span></a>
+            <a href="#"><i class="fas fa-camera"></i><span>Photography</span></a>
+            <a href="#"><i class="fas fa-cog"></i><span>Software</span></a>
+            <a href="#"><i class="fas fa-vial"></i><span>Science</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Popular Topics</h3>
+         <div class="flex">
+            <a href="#"><i class="fab fa-html5"></i><span>HTML</span></a>
+            <a href="#"><i class="fab fa-css3"></i><span>CSS</span></a>
+            <a href="#"><i class="fab fa-js"></i><span>JavaScript</span></a>
+            <a href="#"><i class="fab fa-react"></i><span>React</span></a>
+            <a href="#"><i class="fab fa-php"></i><span>PHP</span></a>
+            <a href="#"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3 class="title">Become a Shikshak:</h3>
+         <p class="tutor">Calling all skilled tutors! Join our esteemed team and share your expertise in software development with eager learners worldwide with the goal of learning and growing together.</p>
+         <a href="teachers.html" class="inline-btn">Get Started</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+<section class="courses">
+
+   <h1 class="heading">Our Courses</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="tutor">
+            <img src="rs.jpg" alt="">
+            <div class="info">
+               <h3>Rajanshu Singh</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="thumb-1.png" alt="">
+            <span>12 Lectures</span>
+         </div>
+         <h3 class="title">Complete HTML tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="rs.jpg" alt="">
+            <div class="info">
+               <h3>Rajanshu Singh</h3>
+               <span>23-01-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="mern.jpg" alt="">
+            <span>24 Lectures</span>
+         </div>
+         <h3 class="title">Complete MERN stack tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Pavitra Pandey</h3>
+               <span>27-06-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="thumb-5.png" alt="">
+            <span>28 Lectures</span>
+         </div>
+         <h3 class="title">Complete JQuery tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="uday.jpg" alt="">
+            <div class="info">
+               <h3>Uday Kumar Lariya</h3>
+               <span>09-11-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="thumb-7.png" alt="">
+            <span>19 Lectures</span>
+         </div>
+         <h3 class="title">Complete PHP tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+
+      <div class="box">
+         <div class="tutor">
+            <img src="uday.jpg" alt="">
+            <div class="info">
+               <h3>Uday Kumar Lariya</h3>
+               <span>22-08-2022</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="thumb-8.png" alt="">
+            <span>11 Lectures</span>
+         </div>
+         <h3 class="title">Complete MySQL tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+<div class="box">
+         <div class="tutor">
+            <img src="pic-4.jpg" alt="">
+            <div class="info">
+               <h3>Pavitra Pandey</h3>
+               <span>27-06-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <img src="thumb-5.png" alt="">
+            <span>28 Lectures</span>
+         </div>
+         <h3 class="title">Complete JQuery tutorial</h3>
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+      </div>
+    
+
+   </div>
+
+   <div class="more-btn">
+      <a href="courses.html" class="inline-option-btn">View All Courses</a>
+   </div>
+
+</section>
+<footer class="footer">
+
+   © 2024 Copyright : Shiksha Ed.
+
+</footer>
+<script src="script.js"></script>
+
+   
+</body>
+</html>
