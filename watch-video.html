@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+   <title>watch</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <script src="https://kit.fontawesome.com/5eea867e3f.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" type="x-icon" href="icon.jpg" >
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="index.html" class="logo">Shiksha <i class="fa-solid fa-laptop-code fa-flip" style="color: goldenrod;--fa-animation-duration: 3s;"></i></a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="nar.jpg" class="image" alt="">
+         <h3 class="name">Naruto Uzumaki</h3>
+         <p class="role">IT student</p>
+         <a href="profile.html" class="btn">View profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="nar.jpg" class="image" alt="">
+      <h3 class="name">Naruto Uzumaki</h3>
+      <p class="role">IT Student</p>
+      <a href="profile.html" class="btn">View profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="watch-video">
+
+   <div class="video-container">
+      <div class="video">
+         <video src="vid-1.mp4" controls poster="post-1-1.png" id="video"></video>
+      </div>
+      <h3 class="title">Complete HTML tutorial (part 01)</h3>
+      <div class="info">
+         <p class="date"><i class="fas fa-calendar"></i><span>22-10-2022</span></p>
+         <p class="date"><i class="fas fa-heart"></i><span>44 likes</span></p>
+      </div>
+      <div class="tutor">
+         <img src="rs.jpg" alt="">
+         <div>
+            <h3>Rajanshu Singh</h3>
+            <span>Full-Stack Developer</span>
+         </div>
+      </div>
+      <form action="" method="post" class="flex">
+         <a href="playlist.html" class="inline-btn">View playlist</a>
+         <button><i class="far fa-heart"></i><span>Like</span></button>
+      </form>
+      <p class="description">
+         Dive into the world of HTML with Rajanshu Singh's expert guidance. Learn the basics of web development, from structuring content to styling pages. Get ready to build your first website and unleash your creativity
+      </p>
+   </div>
+
+</section>
+
+<section class="comments">
+
+   <h1 class="heading">5 comments</h1>
+
+   <form action="" class="add-comment">
+      <h3>Add comments</h3>
+      <textarea name="comment_box" placeholder="Enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="Add comment" class="inline-btn" name="add_comment">
+   </form>
+
+   <h1 class="heading">User comments</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="nar.jpg" alt="">
+            <div>
+               <h3>Naruto Uzumaki</h3>
+               <span>02-01-2023</span>
+            </div>
+         </div>
+         <div class="comment-box">This is a comment from Naruto Uzumaki</div>
+         <form action="" class="flex-btn">
+            <input type="submit" value="edit comment" name="edit_comment" class="inline-option-btn" >
+            <input type="submit" value="delete comment" name="delete_comment" class="inline-delete-btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="pic-2.jpg" alt="">
+            <div>
+               <h3>Sukuna </h3>
+               <span>30-04-2023</span>
+            </div>
+         </div>
+         <div class="comment-box">Awesome tutorial!
+            Keep going!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="pic-3.jpg" alt="">
+            <div>
+               <h3>Shravan Singhania</h3>
+               <span>29-01-2023</span>
+            </div>
+         </div>
+         <div class="comment-box">Amazing way of teaching!
+            thank you so much!
+         </div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="pic-4.jpg" alt="">
+            <div>
+               <h3>Chota Bheem</h3>
+               <span>11-11-2023</span>
+            </div>
+         </div>
+         <div class="comment-box">Loved it, thanks for the tutorial!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="pic-5.jpg" alt="">
+            <div>
+               <h3>J. Lalitha</h3>
+               <span>02-01-2024</span>
+            </div>
+         </div>
+         <div class="comment-box">This is what I have been looking for! thank you so much!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="pic-9.jpg" alt="">
+            <div>
+               <h3>Pankaj Tripathi</h3>
+               <span>22-11-2023</span>
+            </div>
+         </div>
+         <div class="comment-box">Thanks for the tutorial!
+
+            how to download source code file?
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<footer class="footer">
+
+   © 2024 Copyright: Shiksha Ed.
+
+</footer>
+<script src="script.js"></script>
+   
+</body>
+</html>

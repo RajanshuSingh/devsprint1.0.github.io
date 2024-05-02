@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+   <title>Output Prediction Game</title>
+   <link rel="shortcut icon" type="x-icon" href="icon.jpg" >
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <script src="https://kit.fontawesome.com/5eea867e3f.js" crossorigin="anonymous"></script>
+  
+   <link rel="stylesheet" href="style.css">
+   <style>
+    
+  h1, p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #bd9a9a;
+   
+   }
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+pre {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5900ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+
+   </style>
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Shiksha <i class="fa-solid fa-laptop-code fa-flip" style="color: goldenrod;--fa-animation-duration: 3s;"></i></a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="nar.jpg" class="image" alt="">
+         <h3 class="name">Naruto Uzumaki</h3>
+         <p class="role">IT Student</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+            
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="nar.jpg" class="image" alt="">
+      <h3 class="name">Naruto Uzumaki</h3>
+      <p class="role">IT Student</p>
+      <a href="profile.html" class="btn">View profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+      
+   </nav>
+
+</div>
+  <div class="container">
+    <h1>Output Prediction Puzzle 1 </h1>
+    <div id="challenge1" class="challenge">
+      <p>What is the output of the following recursive function?</p>
+      <pre><code>function sum(n) {
+  if (n === 0) {
+    return 0;
+  }
+  return n + sum(n - 1);
+}
+
+console.log(sum(4));</code></pre>
+    </div>
+    <input type="text" id="answer1" placeholder="Enter your answer">
+    <button id="submit1">Submit</button>
+    <p id="result1"></p>
+  </div>
+
+  <div class="container">
+    <h1>Output Prediction Puzzle 2</h1>
+    <div id="challenge2" class="challenge">
+      <p>What is the output of the following recursive function?</p>
+      <pre><code>function factorial(n) {
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+console.log(factorial(5));</code></pre>
+    </div>
+    <input type="text" id="answer2" placeholder="Enter your answer">
+    <button id="submit2">Submit</button>
+    <p id="result2"></p>
+  </div>
+
+  <footer class="footer">
+    © 2024 Copyright : Shiksha Ed.
+  </footer> 
+
+  <script src="puzzle.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
